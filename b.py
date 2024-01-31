@@ -9,7 +9,7 @@ if background is None:
     exit()
 
 # Resize the background image to match the dimensions of the video frames
-video_path = r"D:\work\cctv python\video.mp4"
+video_path = r"D:\\work\\cctv python\\video.mp4"
 video = cv2.VideoCapture(video_path)
 
 # Check if the video file is opened successfully
